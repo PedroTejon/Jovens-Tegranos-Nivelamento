@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>Exercício 8</title>
+    </head>
+    <body>
+        <div id="divInputs">
+            <span id="titulo">Exercício 8</span>
+            <p id="enunciado">Fazer um programa para ler três medidas A, B e C. Em seguida, calcular e
+                mostrar (imprimir os dados com quatro casas decimais):
+                a) a área do quadrado que tem lado A
+                b) a área do triângulo retângulo que base A e altura B
+                c) a área do trapézio que tem bases A e B, e altura C</p>
+            
+            <div id="formInputs">
+                <label for="inputMedidaA">Digite a medida A: </label>
+                <input class="input" id="inputMedidaA" type="number"></input>
+                
+                <label for="inputMedidaB">Digite a medida B: </label>
+                <input class="input" id="inputMedidaB" type="number"></input>
+                
+                <label for="inputMedidaC">Digite a medida C: </label>
+                <input class="input" id="inputMedidaC" type="number"></input>
+            </div>
+            <div id="button">Enviar</div>
+            <script src="./script.js"></script>
+        </div>
+        <div id="divOutputs">
+            <textarea id="outputArea" readonly></textarea>
+        </div>
+    </body>
+</html>

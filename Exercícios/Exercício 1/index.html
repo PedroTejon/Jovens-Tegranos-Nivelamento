@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>Exercício 1</title>
+    </head>
+    <body>
+        <div id="divInputs">
+            <span id="titulo">Exercício 1</span>
+            <p id="enunciado">
+                Fazer um programa para ler as medidas da largura e comprimento de um
+                terreno retangular com uma casa decimal, bem como o valor do metro
+                quadrado do terreno com duas casas decimais. Em seguida, o programa
+                deve mostrar o valor da área do terreno, bem como o valor do preço do
+                terreno, ambos com duas casas decimais, conforme exemplo.</p>
+            
+            <div id="formInputs">
+                <label for="inputLarguraTerreno">Largura do terreno:</label>
+                <input class="input" id="inputLarguraTerreno" type="number"></input>
+                
+                <label for="inputComprimentoTerreno">Comprimento do terreno:</label>
+                <input class="input" id="inputComprimentoTerreno" type="number"></input>
+                
+                <label for="inputValorMetro">Valor do metro quadrado:</label>
+                <input class="input" id="inputValorMetro" type="number"></input>
+            </div>
+            
+            <div id="button">Enviar</div>
+            
+            <script src="./script.js"></script>
+        </div>
+        
+        <div id="divOutputs">
+            <textarea id="outputArea" readonly></textarea>
+        </div>
+    </body>
+</html>

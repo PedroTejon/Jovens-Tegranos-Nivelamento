@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <title>Exercício 6</title>
+    </head>
+    <body>
+        <div id="divInputs">
+            <span id="titulo">Exercício 6</span>
+            <p id="enunciado">Fazer um programa para ler o nome de um(a) funcionário(a), o valor que
+                ele(a) recebe por hora, e a quantidade de horas trabalhadas por ele(a). Ao
+                final, mostrar o valor do pagamento do funcionário com uma mensagem
+                explicativa, conforme exemplo.</p>
+            
+            <div id="formInputs">
+                <label for="inputNome">Nome: </label>
+                <input class="input" id="inputNome"></input>
+                
+                <label for="inputValorHora">Valor por hora: </label>
+                <input class="input" id="inputValorHora" type="number"></input>
+                
+                <label for="inputHorasTrabalhadas">Horas trabalhadas: </label>
+                <input class="input" id="inputHorasTrabalhadas" type="number"></input>
+            </div>
+            <div id="button">Enviar</div>
+            <script src="./script.js"></script>
+        </div>
+        <div id="divOutputs">
+            <textarea id="outputArea" readonly></textarea>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: #dadce8;
+    font-size: 17px;
+    font-family: "Helvetica", "Arial", "sans-serif";
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body{
+    height: 100vh;
+    background-color: #131316;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#divInputs{
+    overflow: auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c21;
+    height: 80vh;
+    width: 35vw;
+    padding:2vw;
+}
+
+#titulo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+#enunciado {
+    text-align: justify;
+    margin-bottom: 10%;
+}
+
+#formInputs{
+    display:grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    gap: 15% 5%;
+    margin-bottom: 10%;
+}
+
+#button{
+    background-color: #26262C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 10%;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+.input{
+    background-color:#26262C;
+    border-radius: 3%;
+    font-size: 16px;
+    border: 0;
+    padding-left: 2%;
+}
+
+#divOutputs{
+    background-color: #1c1c21;
+    height: 80vh;
+    width: 48vw;
+    padding:2vw;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+    background-color: #26262C;
+    resize: none;
+    border: 0;
+}
