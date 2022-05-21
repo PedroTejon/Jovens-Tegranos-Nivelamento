@@ -49,7 +49,19 @@ a{
     padding:2vw;
 }
 
-@media only screen and (max-width: 700px) {
+#formInputs{
+    display:grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    align-content: space-around;
+    justify-content: space-around;
+    gap: 15% 5%;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 768px) {
     body{
         flex-direction: column;
     }
@@ -58,9 +70,16 @@ a{
     }
     #divInputs{
         width: 90vw;
+        height: fit-content;
+        margin-bottom: 5%;
+        align-content: space-around;
     } 
+    #formInputs{
+        gap: 7% 5%
+    }
     #divOutputs{
         margin-top: 1vh;
+        margin-bottom: 3vh;
         width: 90vw;
     }
 }
@@ -75,17 +94,7 @@ a{
     margin-bottom: 7%;
 }
 
-#formInputs{
-    display:grid;
-    width: 90%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-auto-flow: row;
-    align-content: space-evenly;
-    justify-content: space-evenly;
-    gap: 15% 5%;
-    margin-bottom: 10%;
-}
+
 
 .button{
     background-color: #26262C;
@@ -103,6 +112,7 @@ a{
     background-color:#26262C;
     border-radius: 3%;
     font-size: 16px;
+    height:80%;
     border: 0;
     padding-left: 2%;
 }
@@ -129,7 +139,7 @@ a{
 
 textarea{
     width: 100%;
-    height: 100%;
+    height: 95%;
     background-color: #26262C;
     resize: none;
     border: 0;
