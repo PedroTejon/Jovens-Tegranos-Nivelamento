@@ -18,12 +18,12 @@ input[type=number] {
 }
 
 body{
-    height: 100vh;
     background-color: #131316;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-top: 3vh
 }
 
 a{
@@ -37,20 +37,42 @@ a{
     align-items: center;
     justify-content: center;
     background-color: #1c1c21;
-    height: 80vh;
+    height: 85vh;
     width: 35vw;
     padding:2vw;
+}
+
+#divOutputs{
+    background-color: #1c1c21;
+    height: 80vh;
+    width: 48vw;
+    padding:2vw;
+}
+
+@media only screen and (max-width: 700px) {
+    body{
+        flex-direction: column;
+    }
+    #enunciado{
+        margin-bottom: 5vh;
+    }
+    #divInputs{
+        width: 90vw;
+    } 
+    #divOutputs{
+        margin-top: 1vh;
+        width: 90vw;
+    }
 }
 
 #titulo{
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 5%;
 }
 
 #enunciado {
     text-align: justify;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 #formInputs{
@@ -104,12 +126,6 @@ a{
     margin-right: 3vh;
 }
 
-#divOutputs{
-    background-color: #1c1c21;
-    height: 80vh;
-    width: 48vw;
-    padding:2vw;
-}
 
 textarea{
     width: 100%;
