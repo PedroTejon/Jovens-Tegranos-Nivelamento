@@ -1,10 +1,10 @@
 # Etapa de Nivelamento - Jovens Tegranos
-Este é um repositório feito para se armazenar os exercícios feitos durante a fase de nivelamento do programa Jovens Tegranos. Tais exercícios foram resolvidos por Pedro Henrique da Silva Tejon.
+Este é um repositório feito para se armazenar os exercícios feitos durante a fase de nivelamento do programa Jovens Tegranos. Tais exercícios foram resolvidos por Pedro Henrique da Silva Tejon. É possível acessar o site hospedado clicando [aqui](https://pedrotejon.github.io/Jovens-Tegranos-Nivelamento/Exerc%C3%ADcios/Exerc%C3%ADcio%201/index.html).
 
 ## Sumário de exercícios
 | **Pasta do Exercício** | **Arquivo HTML** | **Arquivo JS** |
 |:---|:---:|:---:|
-| <a href="Exercícios\Exercício 1">Exercício 1</a> | <a href="Exercícios\Exercício 1\index.html">HTML</a> | <a href="Exercícios\Exercício 1\script.js">JavaScript</a> |
+| <a href="Exercícios\Exercício 1">Exercício 1</a> | <a href="Exercícios\Exercício 1\index.html">HTML</a> | <a href="Exercícios\Exercício 1\script.js">JavaScript</a> | <a href="Exercícios\Exercício 1\index.html">HTML</a> |
 | <a href="Exercícios\Exercício 2">Exercício 2</a> | <a href="Exercícios\Exercício 2\index.html">HTML</a> | <a href="Exercícios\Exercício 2\script.js">JavaScript</a> |
 | <a href="Exercícios\Exercício 3">Exercício 3</a> | <a href="Exercícios\Exercício 3\index.html">HTML</a> | <a href="Exercícios\Exercício 3\script.js">JavaScript</a> |
 | <a href="Exercícios\Exercício 4">Exercício 4</a> | <a href="Exercícios\Exercício 4\index.html">HTML</a> | <a href="Exercícios\Exercício 4\script.js">JavaScript</a> |
