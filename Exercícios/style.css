@@ -26,6 +26,10 @@ body{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 #divInputs{
     overflow: auto;
     display:flex;
@@ -61,7 +65,7 @@ body{
     margin-bottom: 10%;
 }
 
-#button{
+.button{
     background-color: #26262C;
     display: flex;
     justify-content: center;
@@ -70,6 +74,7 @@ body{
     height: 10%;
     border-radius: 3%;
     cursor: pointer;
+    user-select: none;
 }
 
 .input{
@@ -78,6 +83,25 @@ body{
     font-size: 16px;
     border: 0;
     padding-left: 2%;
+}
+
+#pageBDiv{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:5vh;
+    margin-top:5vh;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: flex-end;
+}
+
+#pageBDiv > .button {
+    height:5vh;
+}
+
+#pageBDiv > .button:first-child {
+    margin-right: 3vh;
 }
 
 #divOutputs{
