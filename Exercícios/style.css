@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    border: 0;
     color: #dadce8;
     font-size: 17px;
     font-family: "Helvetica", "Arial", "sans-serif";
@@ -9,8 +10,8 @@
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 input[type=number] {
@@ -36,6 +37,8 @@ a{
     flex-direction:column;
     align-items: center;
     justify-content: center;
+    outline: solid 0.3vh #de1760;
+    border-radius: 1vh;
     background-color: #1c1c21;
     height: 85vh;
     width: 35vw;
@@ -45,6 +48,8 @@ a{
 #divOutputs{
     background-color: #1c1c21;
     height: 80vh;
+    outline: solid 0.3vh #de1760;
+    border-radius: 1vh;
     width: 48vw;
     padding:2vw;
 }
@@ -94,8 +99,6 @@ a{
     margin-bottom: 7%;
 }
 
-
-
 .button{
     background-color: #26262C;
     display: flex;
@@ -110,11 +113,14 @@ a{
 
 .input{
     background-color:#26262C;
-    border-radius: 3%;
+    border-radius: 1vh;
     font-size: 16px;
-    height:80%;
-    border: 0;
-    padding-left: 2%;
+    padding-left: 3%;
+    transition: outline 0.1s ease-in-out;
+}
+
+.input:focus{
+    outline: #dadce8 0.3vh solid;
 }
 
 #pageBDiv{
@@ -136,11 +142,27 @@ a{
     margin-right: 3vh;
 }
 
+details{
+    background-color: #26262c;
+    margin-bottom: 5vh;
+    padding: 1vh;
+    width: 80%;
+    outline: solid 0.3vh #de1760;
+    border-radius: 1vh;
+}
+
+#divExemplo{
+    background-color: #1c1c21;
+    padding: 1vh 0vh 1vh 1vh;
+}
+
+.inputTexto{
+    color: #de1760;
+}
 
 textarea{
     width: 100%;
     height: 95%;
     background-color: #26262C;
     resize: none;
-    border: 0;
 }
