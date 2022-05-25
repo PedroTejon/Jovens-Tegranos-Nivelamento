@@ -6,11 +6,15 @@ function resolverEx12() {
     let coeficienteC = parseFloat(document.getElementById('inputCoeficienteC').value);
     
     let delta = Math.sqrt(coeficienteB ** 2 - 4 * coeficienteA * coeficienteC);
-    let x1 = ((0 - coeficienteB + delta) / (2 * coeficienteA)).toFixed(4);
-    let x2 = ((0 - coeficienteB - delta) / (2 * coeficienteA)).toFixed(4);
+    let x1 = ((0 - coeficienteB + delta) / (2 * coeficienteA));
+    let x2 = ((0 - coeficienteB - delta) / (2 * coeficienteA));
     
     let textArea = document.getElementById('outputArea');
-    textArea.textContent += `Coeficiente a: ${coeficienteA}\nCoeficiente b: ${coeficienteB}\nCoeficiente c: ${coeficienteC}\nX1 = ${x1}\nX2 = ${x2}\n\n`
+    if (isNaN(x1)) {
+        textArea.textContent += `Coeficiente a: ${coeficienteA}\nCoeficiente b: ${coeficienteB}\nCoeficiente c: ${coeficienteC}\nEsta equação não possui raízes reais\n\n`
+    } else {
+        textArea.textContent += `Coeficiente a: ${coeficienteA}\nCoeficiente b: ${coeficienteB}\nCoeficiente c: ${coeficienteC}\nX1 = ${x1.toFixed(4)}\nX2 = ${x2.toFixed(4)}\n\n`
+    }
 }
 
 button.addEventListener('click', resolverEx12)
